@@ -1,0 +1,132 @@
+
+<app-encabezado></app-encabezado>
+
+
+<div class="container-sm"   >
+ <div class="row"> 
+   <div class="col-sm-1">
+    
+    <img   id="myImg"   (mouseover)="showPic(true)" (mouseout)="showPic(false)" *ngIf="showImage"   src="./assets/avatar.png"> 
+    <img src="./assets/avatar2.jpg"    *ngIf="showImage2" alt="">
+ </div> 
+ <div>
+ <p class="texto"> Hi I’m {{nombre}} a Fullstackweb devel­op­er from Bs As Argentina</p> 
+ </div>
+</div>
+</div>
+<script> 
+
+//(mouseover)="onMouse()
+
+function changePic1() {
+document.getElementById("myImg").src = "Img/avatar2.jpg";
+}
+function changePic2(){
+document.getElementById("myImg").src = "Img/avatar.png";
+}
+
+
+/*  var foto = document.createElement('img');
+foto.src = "img/avatar.png"
+foto.name = "avatar"
+foto.width = 200
+document.body.appendChild(avatar)
+*/
+</script>
+
+<router-outlet></router-outlet>
+
+<br> <br> 
+
+
+<div class="container">
+  
+  <h2 class="text-center text-uppercase text-secondary mb-0">Skills</h2>
+  
+  <br>
+  <br>
+  <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+      <div class="divider-custom-line"></div>
+  </div>
+  <div class="text-center" >
+      <div class="row">
+          <div class="col">
+              <img class="ml-3 mr-3" src="./assets/html.png" title="HTML">
+              <img class="ml-3 mr-3" src="./assets/css.png" title="CSS">
+              <img class="ml-3 mr-3" src="./assets/js.png" title="JavaScript">
+              
+              <img class="ml-3 mr-3" src="./assets/java.png" title="JAVA">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <img class="ml-3 mr-3" src="./assets/nodejs.png" title="NodeJs">
+              <img class="ml-3 mr-3" src="./assets/mysql.png" title="mySql">
+              <img class="ml-3 mr-3" src="./assets/git.png" title="GIT">
+              <img class="ml-3 mr-3 mt-2" src="./assets/bootstrap.png" title="Bootstrap">
+          </div>
+      </div>
+      
+          
+            
+              
+              
+         
+      
+  </div>
+</div>
+
+<br><br>
+<section></section>
+
+<!--aside>
+<iframe src="" frameborder="0"></iframe>
+
+</aside-->
+
+<div class="container-sm"> 
+      <a name="contacto"></a>
+   <form>
+      <div class="mb-3">
+ 
+         <label for="idE" class="form-label">Nombre</label>
+   
+         <input type="text" class="form-control form-control-sm" id="idE" aria-describedby ="idEH" placeholder="Complete con su nombre">
+   
+         <div id="idEH" class="form-text"></div>
+   
+       </div>
+   
+     <div class="mb-3">
+ 
+       <label for="idE" class="form-label">Email</label>
+ 
+       <input type="email" class="form-control form-control-sm" id="idE" aria-describedby ="idEH" placeholder="Complete con su email">
+ 
+       <div id="idEH" class="form-text"></div>
+ 
+     </div>
+ 
+     <div class="mb-3">
+ 
+      <label for="idE" class="form-label">Consulta</label>
+
+            <textarea name="" class="form-control form-control-sm" id="idE" aria-describedby ="idEH" cols="30" rows="10" maxlength="500" placeholder="Escriba su consulta"></textarea>
+
+      <div id="idEH" class="form-text"></div>
+
+    </div>
+ 
+ 
+     <button type="submit"  class="btn btn-primary">Enviar</button>
+ 
+ </form>
+
+ </div>
+  
+
+
+
+ <!--app-footer></app-footer --> 

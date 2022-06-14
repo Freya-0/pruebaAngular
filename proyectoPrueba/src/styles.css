@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background:#000031 url(./assets/6561288.jpg); 
+    background-color: black ; 
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    font-family: 'Satisfy', cursive;
+    
+ }
+
+ .texto { font-family: 'Satisfy', cursive;
+    color: #80227b;
+    font-size: 25px;
+
+ }
+ 
+ h1 {
+ 
+     text-align: center;
+     color:rgb(72, 11, 241)
+ }
+ 
+ 
+ p.destacado
+ {
+     padding: 0.5 em;
+     border: 1px;
+     color:rgb(72, 11, 241)
+ 
+ }
+ 
+ p.wtf
+ {
+     color: white;
+    
+ }
+ 
+ p {
+     color: white;
+  
+     
+ }
+ 
+ .conclusion
+ {
+     color:rgb(72, 11, 241) 
+ }
+ 
+ .linkedin {
+    /* background:url(./Img/png-transparent-linkedin-logo-computer-icons-facebook-user-profile-facebook-blue-angle-text.png) no-repeat; */
+     height: 100px;
+     padding: 0;
+     margin: 0;
+     vertical-align: top;
+     width: 100px;
+     cursor: pointer;
+ }
+ 
+ .boton2 {
+      /* background: url(./Img/índice.jpg) no-repeat; */
+     cursor: pointer;
+     height: 100px;
+     padding: 0;
+     margin: 0;
+     vertical-align: top;
+     width: 100px;
+ }
+ 
+ .mail{
+     /* background: url(./Img/mail.png); */
+     cursor: pointer;
+     height: 100px;
+     width: 100px;
+      
+ }
+ 
+ h3 {
+     color:rgb(72, 11, 241) 
+ 
+ }
+
+ .container-sm {
+    max-width: 200px;
+    border-radius:  0px;
+    background-color: rgb(241, 11, 141, 0.1);
+    border-style: outset;
+    border-color: white;
+    border-radius: 1%;
+}
+
+.container {
+    background-color: rgba(0, 204, 255, 0.1);
+    border-style: outset;
+    border-color: white;
+    border-radius: 1%;
+}

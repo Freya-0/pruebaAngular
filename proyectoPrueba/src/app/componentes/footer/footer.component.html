@@ -1,0 +1,48 @@
+
+<div class="container" >
+  <div class="row">
+    <div class="col-sm-1"> <button id="boton" class="boton2"  (click)="onClick1()" title="Go to Linkedin"> <img src="./assets/linkedin.png">  </button></div>
+    <div class="col-sm-1"> <button id="linkedin" class="linkedin" (click)="onClick2()" >  <img src="./assets/índice.jpg"></button></div>
+    <div class="col-sm-1"> <button id="mail" class="mail" (click)="onClickmail()" > <img src="./assets/mail.png" ></button></div>
+  </div>
+
+ 
+
+  <!--li><a routerLink="/footer">Ir a Login</a></li-->
+
+
+
+
+<script> 
+var linkedin = document.getElementById("linkedin");
+
+linkedin.addEventListener('click', function() {
+
+window.open('https://www.linkedin.com/') ;
+
+
+})
+</script>
+
+<script>
+  var boton = document.getElementById("boton");
+
+  boton.addEventListener('click', function() {
+    // console.log(window.location.href)
+   // window.location.href = 'https://www.facebook.com/' ;
+    window.open('https://www.facebook.com/');
+  })
+
+  var boton = document.getElementById("mail");
+
+boton.addEventListener('click', function() {
+
+window.location.href = "mailto:jesi_vermilion@yahoo.com.ar";
+
+})
+ 
+ 
+</script>
+</div>
+
+
